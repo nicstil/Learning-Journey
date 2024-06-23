@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Source Serif 4", serif;
-  background-color:black;
+  background-color: gray;
 }
 
 /* TYPOGRAPHY */
@@ -23,6 +23,7 @@ body {
   font-weight: 600;
   font-size: 1rem;
   color: #090909;
+  text-decoration:none;
 }
 
 .blog-date {
@@ -47,12 +48,43 @@ body {
   color: black;
   text-align: center;
   display: block;
-  padding:3em;
+  padding: 3em;
 }
 
 .blogimage {
   width: 309px;
   height: 232px;
+}
+
+.post-date {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #151515;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #151515;
+}
+
+.post-content {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #151515;
+}
+
+.post-title-2 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #151515;
+}
+
+.recent-posts-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #141414;
+  text-align: center;
 }
 
 header {
@@ -77,25 +109,82 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2em;
-  grid-gap:1.5em;
+  grid-gap: 1.5em;
 }
 
 .footer-blogname {
-  font-weight:700;
-  color:#ECECEC;
-  font-size:0.75rem;
-  margin:0;
+  font-weight: 700;
+  color: #ececec;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 .copyright {
-  font-weight:400;
-  color:#D7D7D7;
-  font-size:0.75rem;
-  margin:0;
+  font-weight: 400;
+  color: #d7d7d7;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 footer {
-  background-color:black;
-  text-align:center;
-  padding:2em 2em;
+  background-color: black;
+  text-align: center;
+  padding: 2em 2em;
+}
+
+.hero img {
+  height: 488px;
+  width: 1085px;
+}
+
+.hero-2 img {
+  width: 979px;
+  height: 488px;
+  border-radius: 3px 0px 0px 0px;
+  padding: 1em;
+  margin: auto;
+}
+
+.hero-2 {
+  display: flex;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-me {
+  display: flex;
+  gap: 1.5em;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-me img {
+  width: 182px;
+  height: 182px;
+}
+
+.salute-title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #151515;
+  margin-bottom: 0.5em;
+  line-height:1.2;
+}
+
+.salute-content {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #151515;
+  margin-top: 0;
+}
+
+.salute {
+  display: flex;
+  flex-direction: column;
 }
